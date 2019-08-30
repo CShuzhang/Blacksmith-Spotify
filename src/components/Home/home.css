@@ -1,0 +1,45 @@
+body{
+	background-color: #1cb954;
+}
+
+.top{
+	height: 50px;
+	background-color: black;
+}
+
+.top img{
+	margin-top: 5px;
+	height: 40px;
+	width: 90px;
+}
+
+img{
+	height: 300px;	
+	width: 300px;
+}
+
+.take{
+	display: flex;
+	justify-content: center;
+}
+
+.songs{
+	padding-bottom: 35px;
+	padding-top: 10px;
+	border-bottom: 1px black solid;
+
+}
+
+.songs p{
+	font-size: 15px;
+	width: 20em;
+}
+
+.songs img:hover{
+	opacity: 0.8;
+	transition: 0.5s;
+}
+
+#date{
+	font-style: italic;
+}
